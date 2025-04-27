@@ -1,0 +1,1296 @@
+2025-04-26 22:36:43,715 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 22:36:44,051 INFO:Decisão para BTCUSDT: buy
+2025-04-26 22:36:44,357 INFO:Preço atual de BTCUSDT: 94340.65 | Quantidade calculada: 0.000106
+2025-04-26 22:36:44,664 ERROR:Erro ao executar ordem para BTCUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2025-04-26 22:36:45,618 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 22:36:45,907 INFO:Decisão para ETHUSDT: buy
+2025-04-26 22:36:46,192 INFO:Preço atual de ETHUSDT: 1808.56 | Quantidade calculada: 0.002765
+2025-04-26 22:36:46,509 ERROR:Erro ao executar ordem para ETHUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2025-04-26 22:36:47,278 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 22:36:47,567 INFO:Decisão para BNBUSDT: buy
+2025-04-26 22:36:47,940 INFO:Preço atual de BNBUSDT: 601.75 | Quantidade calculada: 0.008309
+2025-04-26 22:36:48,554 ERROR:Erro ao executar ordem para BNBUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2025-04-26 22:36:49,352 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:36:49,639 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:36:49,989 INFO:Preço atual de XRPUSDT: 2.1702 | Quantidade calculada: 2.303935
+2025-04-26 22:36:50,274 ERROR:Erro ao executar ordem para XRPUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2025-04-26 22:36:51,249 INFO:Resumo do ciclo: 4 ativos analisados, 4 operações executadas, tempo de execução: 7.53 segundos
+2025-04-26 22:42:43,102 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 22:42:43,420 INFO:Decisão para BTCUSDT: buy
+2025-04-26 22:42:44,466 INFO:Preço atual de BTCUSDT: 94531.49 | Quantidade ajustada: 0.00010000
+2025-04-26 22:42:44,752 ERROR:Erro ao executar ordem para BTCUSDT: APIError(code=-2010): Account has insufficient balance for requested action.
+2025-04-26 22:42:45,596 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 22:42:45,884 INFO:Decisão para ETHUSDT: buy
+2025-04-26 22:42:46,907 INFO:Preço atual de ETHUSDT: 1815.25 | Quantidade ajustada: 0.00270000
+2025-04-26 22:42:47,198 ERROR:Erro ao executar ordem para ETHUSDT: APIError(code=-1013): Filter failure: NOTIONAL
+2025-04-26 22:42:47,991 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 22:42:48,278 INFO:Decisão para BNBUSDT: buy
+2025-04-26 22:42:49,234 INFO:Preço atual de BNBUSDT: 603.17 | Quantidade ajustada: 0.00800000
+2025-04-26 22:42:49,620 ERROR:Erro ao executar ordem para BNBUSDT: APIError(code=-1013): Filter failure: NOTIONAL
+2025-04-26 22:42:50,415 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:42:50,704 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:42:51,679 INFO:Preço atual de XRPUSDT: 2.177 | Quantidade ajustada: 2.20000000
+2025-04-26 22:42:52,083 ERROR:Erro ao executar ordem para XRPUSDT: APIError(code=-1013): Filter failure: NOTIONAL
+2025-04-26 22:42:52,946 INFO:Resumo do ciclo: 4 ativos analisados, 4 operações executadas, tempo de execução: 9.84 segundos
+2025-04-26 22:54:40,190 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:54:40,489 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:54:42,021 ERROR:Erro geral no job: 
+2025-04-26 22:54:42,885 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 2.70 segundos
+2025-04-26 22:55:42,963 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:55:43,262 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:55:45,417 ERROR:Erro geral no job: 
+2025-04-26 22:55:46,224 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.26 segundos
+2025-04-26 22:57:47,980 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:57:48,275 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:57:49,801 ERROR:Erro geral no job: 
+2025-04-26 22:57:50,575 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 2.59 segundos
+2025-04-26 22:58:50,762 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:58:51,058 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:58:52,928 ERROR:Erro geral no job: 
+2025-04-26 22:58:53,724 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 2.96 segundos
+2025-04-26 22:59:53,777 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 22:59:54,074 INFO:Decisão para XRPUSDT: sell
+2025-04-26 22:59:56,010 ERROR:Erro geral no job: 
+2025-04-26 22:59:56,868 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.09 segundos
+2025-04-26 23:00:57,001 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:00:57,303 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:00:59,349 ERROR:Erro geral no job: 
+2025-04-26 23:01:00,133 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.13 segundos
+2025-04-26 23:02:00,234 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:02:00,527 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:02:02,726 ERROR:Erro geral no job: 
+2025-04-26 23:02:03,529 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.30 segundos
+2025-04-26 23:03:03,659 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:03:03,989 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:03:06,134 ERROR:Erro geral no job: 
+2025-04-26 23:03:06,968 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.31 segundos
+2025-04-26 23:04:37,718 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:04:38,006 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:04:39,631 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 86, in job
+    min_notional = get_min_notional(symbol)
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 52, in get_min_notional
+    notional_filter = next(f for f in info['filters'] if f['filterType'] == 'MIN_NOTIONAL')
+StopIteration
+
+2025-04-26 23:04:40,410 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 2.69 segundos
+2025-04-26 23:05:40,436 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:05:40,735 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:05:42,266 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 86, in job
+    min_notional = get_min_notional(symbol)
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 52, in get_min_notional
+    notional_filter = next(f for f in info['filters'] if f['filterType'] == 'MIN_NOTIONAL')
+StopIteration
+
+2025-04-26 23:05:43,260 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 2.82 segundos
+2025-04-26 23:06:43,296 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:06:43,582 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:06:45,522 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 86, in job
+    min_notional = get_min_notional(symbol)
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 52, in get_min_notional
+    notional_filter = next(f for f in info['filters'] if f['filterType'] == 'MIN_NOTIONAL')
+StopIteration
+
+2025-04-26 23:06:46,297 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.00 segundos
+2025-04-26 23:10:13,140 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:10:13,432 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:10:14,960 WARNING:Filtro MIN_NOTIONAL não encontrado para XRPUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:10:14,960 INFO:Preço atual de XRPUSDT: 2.1702 | Quantidade ajustada: 0.40000000 | Valor total: 0.87 USDT
+2025-04-26 23:10:15,259 ERROR:Erro crítico ao executar ordem para XRPUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:10:16,064 INFO:Executando estratégia para PEPEUSDT...
+2025-04-26 23:10:16,349 INFO:Decisão para PEPEUSDT: sell
+2025-04-26 23:10:17,734 WARNING:Filtro MIN_NOTIONAL não encontrado para PEPEUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:10:17,735 INFO:Preço atual de PEPEUSDT: 8.99e-06 | Quantidade ajustada: 111234.00000000 | Valor total: 1.00 USDT
+2025-04-26 23:10:18,050 ERROR:Erro crítico ao executar ordem para PEPEUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1111): Parameter 'quantity' has too much precision.
+
+2025-04-26 23:10:19,999 INFO:Executando estratégia para DOGEUSDT...
+2025-04-26 23:10:20,308 INFO:Decisão para DOGEUSDT: sell
+2025-04-26 23:10:21,603 WARNING:Filtro MIN_NOTIONAL não encontrado para DOGEUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:10:21,604 INFO:Preço atual de DOGEUSDT: 0.17871 | Quantidade ajustada: 5.00000000 | Valor total: 0.89 USDT
+2025-04-26 23:10:21,906 ERROR:Erro crítico ao executar ordem para DOGEUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:10:22,773 INFO:Executando estratégia para ADAUSDT...
+2025-04-26 23:10:23,061 INFO:Decisão para ADAUSDT: sell
+2025-04-26 23:10:24,427 WARNING:Filtro MIN_NOTIONAL não encontrado para ADAUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:10:24,428 INFO:Preço atual de ADAUSDT: 0.7014 | Quantidade ajustada: 1.40000000 | Valor total: 0.98 USDT
+2025-04-26 23:10:24,825 ERROR:Erro crítico ao executar ordem para ADAUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:10:25,608 INFO:Resumo do ciclo: 4 ativos analisados, 4 operações executadas, tempo de execução: 12.47 segundos
+2025-04-26 23:11:25,638 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:11:25,927 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:11:27,196 WARNING:Filtro MIN_NOTIONAL não encontrado para XRPUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:11:27,196 INFO:Preço atual de XRPUSDT: 2.1712 | Quantidade ajustada: 0.40000000 | Valor total: 0.87 USDT
+2025-04-26 23:11:27,479 ERROR:Erro crítico ao executar ordem para XRPUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:11:28,351 INFO:Executando estratégia para PEPEUSDT...
+2025-04-26 23:11:28,641 INFO:Decisão para PEPEUSDT: sell
+2025-04-26 23:11:29,898 WARNING:Filtro MIN_NOTIONAL não encontrado para PEPEUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:11:29,899 INFO:Preço atual de PEPEUSDT: 9e-06 | Quantidade ajustada: 111111.00000000 | Valor total: 1.00 USDT
+2025-04-26 23:11:30,181 ERROR:Erro crítico ao executar ordem para PEPEUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1111): Parameter 'quantity' has too much precision.
+
+2025-04-26 23:11:30,989 INFO:Executando estratégia para DOGEUSDT...
+2025-04-26 23:11:31,278 INFO:Decisão para DOGEUSDT: sell
+2025-04-26 23:11:32,511 WARNING:Filtro MIN_NOTIONAL não encontrado para DOGEUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:11:32,511 INFO:Preço atual de DOGEUSDT: 0.17901 | Quantidade ajustada: 5.00000000 | Valor total: 0.90 USDT
+2025-04-26 23:11:32,798 ERROR:Erro crítico ao executar ordem para DOGEUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:11:33,567 INFO:Executando estratégia para ADAUSDT...
+2025-04-26 23:11:33,857 INFO:Decisão para ADAUSDT: sell
+2025-04-26 23:11:35,096 WARNING:Filtro MIN_NOTIONAL não encontrado para ADAUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:11:35,096 INFO:Preço atual de ADAUSDT: 0.7027 | Quantidade ajustada: 1.40000000 | Valor total: 0.98 USDT
+2025-04-26 23:11:35,384 ERROR:Erro crítico ao executar ordem para ADAUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:11:36,978 INFO:Resumo do ciclo: 4 ativos analisados, 4 operações executadas, tempo de execução: 11.34 segundos
+2025-04-26 23:12:37,009 INFO:Executando estratégia para XRPUSDT...
+2025-04-26 23:12:37,302 INFO:Decisão para XRPUSDT: sell
+2025-04-26 23:12:38,573 WARNING:Filtro MIN_NOTIONAL não encontrado para XRPUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:12:38,574 INFO:Preço atual de XRPUSDT: 2.1716 | Quantidade ajustada: 0.40000000 | Valor total: 0.87 USDT
+2025-04-26 23:12:38,858 ERROR:Erro crítico ao executar ordem para XRPUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:12:39,658 INFO:Executando estratégia para PEPEUSDT...
+2025-04-26 23:12:39,946 INFO:Decisão para PEPEUSDT: sell
+2025-04-26 23:12:41,378 WARNING:Filtro MIN_NOTIONAL não encontrado para PEPEUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:12:41,378 INFO:Preço atual de PEPEUSDT: 9.01e-06 | Quantidade ajustada: 110987.00000000 | Valor total: 1.00 USDT
+2025-04-26 23:12:41,666 ERROR:Erro crítico ao executar ordem para PEPEUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1111): Parameter 'quantity' has too much precision.
+
+2025-04-26 23:12:42,450 WARNING:Limite máximo de 10 operações diárias atingido durante a execução.
+2025-04-26 23:12:42,450 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 5.44 segundos
+2025-04-26 23:13:42,485 WARNING:Limite máximo de 10 operações diárias atingido. Nenhuma nova operação será realizada hoje.
+2025-04-26 23:14:42,522 WARNING:Limite máximo de 10 operações diárias atingido. Nenhuma nova operação será realizada hoje.
+2025-04-26 23:15:42,559 WARNING:Limite máximo de 10 operações diárias atingido. Nenhuma nova operação será realizada hoje.
+2025-04-26 23:21:03,979 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:21:04,278 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:21:05,546 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:21:05,546 INFO:Preço atual de BTCUSDT: 94465.92 | Quantidade ajustada: 0.00010000 | Valor total: 9.45 USDT
+2025-04-26 23:21:05,837 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-26 23:21:06,660 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:21:06,947 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:21:08,185 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:21:08,186 INFO:Preço atual de ETHUSDT: 1817.08 | Quantidade ajustada: 0.00270000 | Valor total: 4.91 USDT
+2025-04-26 23:21:08,473 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:21:10,408 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 23:21:10,697 INFO:Decisão para BNBUSDT: sell
+2025-04-26 23:21:11,914 WARNING:Filtro MIN_NOTIONAL não encontrado para BNBUSDT. Assumindo 0.0 USDT.
+2025-04-26 23:21:11,914 INFO:Preço atual de BNBUSDT: 602.48 | Quantidade ajustada: 0.00800000 | Valor total: 4.82 USDT
+2025-04-26 23:21:12,212 ERROR:Erro crítico ao executar ordem para BNBUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: NOTIONAL
+
+2025-04-26 23:21:13,008 INFO:Resumo do ciclo: 3 ativos analisados, 3 operações executadas, tempo de execução: 9.03 segundos
+2025-04-26 23:30:18,503 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:30:18,795 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:30:20,033 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:30:20,033 WARNING:Valor total 9.43 USDT para BTCUSDT abaixo do mínimo permitido de 10.00 USDT. Operação ignorada.
+2025-04-26 23:30:20,833 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:30:21,129 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:30:22,368 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:30:22,369 WARNING:Valor total 4.90 USDT para ETHUSDT abaixo do mínimo permitido de 10.00 USDT. Operação ignorada.
+2025-04-26 23:30:23,173 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 23:30:23,470 INFO:Decisão para BNBUSDT: sell
+2025-04-26 23:30:24,700 WARNING:Filtro MIN_NOTIONAL não encontrado para BNBUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:30:24,701 WARNING:Valor total 4.81 USDT para BNBUSDT abaixo do mínimo permitido de 10.00 USDT. Operação ignorada.
+2025-04-26 23:30:25,480 INFO:Resumo do ciclo: 3 ativos analisados, 0 operações executadas, tempo de execução: 6.98 segundos
+2025-04-26 23:32:07,526 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:32:07,815 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:32:09,089 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:32:09,387 WARNING:Saldo insuficiente: necessário 11.32 USDT, disponível 0.00 USDT. Operação ignorada para BTCUSDT.
+2025-04-26 23:32:10,184 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:32:10,476 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:32:11,692 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:32:11,693 WARNING:Valor total 7.98 USDT para ETHUSDT abaixo do mínimo permitido de 10.00 USDT. Operação ignorada.
+2025-04-26 23:32:12,487 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 23:32:12,781 INFO:Decisão para BNBUSDT: sell
+2025-04-26 23:32:14,006 WARNING:Filtro MIN_NOTIONAL não encontrado para BNBUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:32:14,006 WARNING:Valor total 7.82 USDT para BNBUSDT abaixo do mínimo permitido de 10.00 USDT. Operação ignorada.
+2025-04-26 23:32:14,777 INFO:Resumo do ciclo: 3 ativos analisados, 0 operações executadas, tempo de execução: 7.25 segundos
+2025-04-26 23:34:16,847 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:34:17,143 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:34:18,709 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:34:19,004 WARNING:Saldo insuficiente: necessário 10.37 USDT, disponível 0.00 USDT. Operação ignorada para BTCUSDT.
+2025-04-26 23:34:19,808 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:34:20,095 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:34:21,631 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:34:21,918 WARNING:Saldo insuficiente: necessário 10.33 USDT, disponível 0.00 USDT. Operação ignorada para ETHUSDT.
+2025-04-26 23:34:22,718 INFO:Executando estratégia para BNBUSDT...
+2025-04-26 23:34:23,007 INFO:Decisão para BNBUSDT: sell
+2025-04-26 23:34:24,459 WARNING:Filtro MIN_NOTIONAL não encontrado para BNBUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:34:24,751 WARNING:Saldo insuficiente: necessário 10.23 USDT, disponível 0.00 USDT. Operação ignorada para BNBUSDT.
+2025-04-26 23:34:25,551 INFO:Resumo do ciclo: 3 ativos analisados, 0 operações executadas, tempo de execução: 8.70 segundos
+2025-04-26 23:42:11,953 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:42:12,247 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:42:15,465 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:42:15,752 INFO:Preço atual de BTCUSDT: 94339.41 | Quantidade ajustada: 0.00011000 | Valor total: 10.38 USDT | Saldo disponível: 25.97 USDT
+2025-04-26 23:42:16,557 INFO:Ordem executada: BUY 0.00011000 BTCUSDT
+2025-04-26 23:42:17,372 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:42:17,663 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:42:19,872 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:42:20,165 INFO:Preço atual de ETHUSDT: 1813.65 | Quantidade ajustada: 0.00570000 | Valor total: 10.34 USDT | Saldo disponível: 15.59 USDT
+2025-04-26 23:42:20,450 INFO:Ordem executada: BUY 0.00570000 ETHUSDT
+2025-04-26 23:42:21,279 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 9.33 segundos
+2025-04-26 23:43:21,314 INFO:Executando estratégia para BTCUSDT...
+2025-04-26 23:43:21,603 INFO:Decisão para BTCUSDT: buy
+2025-04-26 23:43:22,851 WARNING:Filtro MIN_NOTIONAL não encontrado para BTCUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:43:23,156 WARNING:Saldo insuficiente: necessário 10.37 USDT, disponível 5.25 USDT. Operação ignorada para BTCUSDT.
+2025-04-26 23:43:23,941 INFO:Executando estratégia para ETHUSDT...
+2025-04-26 23:43:24,230 INFO:Decisão para ETHUSDT: buy
+2025-04-26 23:43:25,455 WARNING:Filtro MIN_NOTIONAL não encontrado para ETHUSDT. Assumindo 10.0 USDT como mínimo.
+2025-04-26 23:43:25,743 WARNING:Saldo insuficiente: necessário 10.33 USDT, disponível 5.25 USDT. Operação ignorada para ETHUSDT.
+2025-04-26 23:43:26,520 INFO:Resumo do ciclo: 2 ativos analisados, 0 operações executadas, tempo de execução: 5.21 segundos
+2025-04-27 01:00:55,938 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 01:00:56,329 INFO:Decisão para BTCUSDT: buy
+2025-04-27 01:00:56,333 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 105, in job
+    average_buy_prices[symbol] = price
+                                 ^^^^^
+NameError: name 'price' is not defined. Did you mean: 'print'?
+
+2025-04-27 01:00:57,208 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.27 segundos
+2025-04-27 01:37:57,361 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 01:37:57,775 INFO:Decisão para BTCUSDT: buy
+2025-04-27 01:37:58,059 INFO:Registrado preço médio de compra para BTCUSDT: 94165.4300 USDT
+2025-04-27 01:37:58,347 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 01:38:00,316 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 01:38:00,607 INFO:Decisão para ETHUSDT: buy
+2025-04-27 01:38:00,886 INFO:Registrado preço médio de compra para ETHUSDT: 1802.9200 USDT
+2025-04-27 01:38:01,179 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 01:38:01,971 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.61 segundos
+2025-04-27 01:53:02,541 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 01:53:02,922 INFO:Decisão para BTCUSDT: buy
+2025-04-27 01:53:03,211 INFO:Registrado preço médio de compra para BTCUSDT: 94086.9600 USDT
+2025-04-27 01:53:03,504 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 01:53:05,326 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 01:53:05,608 INFO:Decisão para ETHUSDT: buy
+2025-04-27 01:53:05,893 INFO:Registrado preço médio de compra para ETHUSDT: 1799.9900 USDT
+2025-04-27 01:53:06,188 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 01:53:06,989 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.45 segundos
+2025-04-27 02:08:07,540 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 02:08:07,943 INFO:Decisão para BTCUSDT: buy
+2025-04-27 02:08:08,229 INFO:Registrado preço médio de compra para BTCUSDT: 94136.5000 USDT
+2025-04-27 02:08:08,519 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 02:08:10,432 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 02:08:10,721 INFO:Decisão para ETHUSDT: buy
+2025-04-27 02:08:11,008 INFO:Registrado preço médio de compra para ETHUSDT: 1802.7000 USDT
+2025-04-27 02:08:11,294 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 02:08:12,188 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.65 segundos
+2025-04-27 02:23:12,735 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 02:23:13,118 INFO:Decisão para BTCUSDT: buy
+2025-04-27 02:23:13,404 INFO:Registrado preço médio de compra para BTCUSDT: 93975.5900 USDT
+2025-04-27 02:23:13,694 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 02:23:14,533 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 02:23:14,820 INFO:Decisão para ETHUSDT: buy
+2025-04-27 02:23:15,104 INFO:Registrado preço médio de compra para ETHUSDT: 1797.6000 USDT
+2025-04-27 02:23:15,388 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: LOT_SIZE
+
+2025-04-27 02:23:17,322 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.59 segundos
+2025-04-27 02:38:17,930 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 02:38:18,307 INFO:Decisão para BTCUSDT: sell
+2025-04-27 02:38:18,310 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 02:38:19,194 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.26 segundos
+2025-04-27 02:53:19,759 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 02:53:20,239 INFO:Decisão para BTCUSDT: sell
+2025-04-27 02:53:20,241 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 02:53:21,107 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.35 segundos
+2025-04-27 03:08:21,673 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 03:08:22,093 INFO:Decisão para BTCUSDT: sell
+2025-04-27 03:08:22,095 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 03:08:22,879 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.21 segundos
+2025-04-27 03:23:23,467 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 03:23:23,844 INFO:Decisão para BTCUSDT: sell
+2025-04-27 03:23:23,845 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 03:23:24,670 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.20 segundos
+2025-04-27 03:38:25,270 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 03:38:25,648 INFO:Decisão para BTCUSDT: sell
+2025-04-27 03:38:25,650 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 03:38:26,509 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.24 segundos
+2025-04-27 03:53:27,092 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 03:53:27,479 INFO:Decisão para BTCUSDT: sell
+2025-04-27 03:53:27,480 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 03:53:28,333 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.24 segundos
+2025-04-27 04:08:28,901 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 04:08:29,303 INFO:Decisão para BTCUSDT: sell
+2025-04-27 04:08:29,305 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 04:08:30,102 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.20 segundos
+2025-04-27 04:23:30,671 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 04:23:31,079 INFO:Decisão para BTCUSDT: sell
+2025-04-27 04:23:31,080 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 04:23:31,929 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.26 segundos
+2025-04-27 04:38:32,489 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 04:38:32,873 INFO:Decisão para BTCUSDT: sell
+2025-04-27 04:38:32,875 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 04:38:33,682 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.19 segundos
+2025-04-27 04:53:34,273 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 04:53:34,661 INFO:Decisão para BTCUSDT: sell
+2025-04-27 04:53:34,662 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 04:53:35,476 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.20 segundos
+2025-04-27 05:08:36,080 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 05:08:36,470 INFO:Decisão para BTCUSDT: sell
+2025-04-27 05:08:36,473 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 05:08:37,336 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.26 segundos
+2025-04-27 05:23:37,905 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 05:23:38,333 INFO:Decisão para BTCUSDT: sell
+2025-04-27 05:23:38,334 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 05:23:39,205 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.30 segundos
+2025-04-27 05:38:39,777 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 05:38:40,170 INFO:Decisão para BTCUSDT: sell
+2025-04-27 05:38:40,171 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 05:38:41,052 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.27 segundos
+2025-04-27 05:53:41,622 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 05:53:42,053 INFO:Decisão para BTCUSDT: sell
+2025-04-27 05:53:42,055 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 05:53:42,934 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.31 segundos
+2025-04-27 06:08:43,505 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 06:08:43,884 INFO:Decisão para BTCUSDT: sell
+2025-04-27 06:08:43,886 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 06:08:44,682 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.18 segundos
+2025-04-27 06:23:45,264 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 06:23:45,635 INFO:Decisão para BTCUSDT: sell
+2025-04-27 06:23:45,637 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 06:23:46,506 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.24 segundos
+2025-04-27 06:38:47,082 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 06:38:47,523 INFO:Decisão para BTCUSDT: sell
+2025-04-27 06:38:47,525 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 06:38:48,434 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.35 segundos
+2025-04-27 06:53:49,021 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 06:53:49,602 INFO:Decisão para BTCUSDT: sell
+2025-04-27 06:53:49,604 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 06:53:50,412 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.39 segundos
+2025-04-27 07:08:50,988 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 07:08:51,402 INFO:Decisão para BTCUSDT: sell
+2025-04-27 07:08:51,404 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 07:08:52,272 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.28 segundos
+2025-04-27 07:23:52,837 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 07:23:53,283 INFO:Decisão para BTCUSDT: sell
+2025-04-27 07:23:53,285 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 07:23:54,154 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.32 segundos
+2025-04-27 07:38:54,730 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 07:38:55,300 INFO:Decisão para BTCUSDT: sell
+2025-04-27 07:38:55,302 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 07:38:56,099 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.37 segundos
+2025-04-27 07:53:56,668 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 07:53:57,055 INFO:Decisão para BTCUSDT: sell
+2025-04-27 07:53:57,056 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 07:53:57,848 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.18 segundos
+2025-04-27 08:08:58,418 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 08:08:58,845 INFO:Decisão para BTCUSDT: sell
+2025-04-27 08:08:58,847 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 125, in job
+    if price >= take_profit_price:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'price' where it is not associated with a value
+
+2025-04-27 08:08:59,700 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.28 segundos
+2025-04-27 08:29:02,322 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 08:29:02,713 INFO:Decisão para BTCUSDT: sell
+2025-04-27 08:29:02,714 WARNING:Sem registro de preço médio para BTCUSDT. Ignorando venda.
+2025-04-27 08:29:02,714 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 08:29:03,000 INFO:Decisão para ETHUSDT: sell
+2025-04-27 08:29:03,000 WARNING:Sem registro de preço médio para ETHUSDT. Ignorando venda.
+2025-04-27 08:29:03,001 INFO:Resumo do ciclo: 2 ativos analisados, 0 operações executadas, tempo de execução: 0.68 segundos
+2025-04-27 08:44:03,440 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 08:44:03,850 INFO:Decisão para BTCUSDT: sell
+2025-04-27 08:44:03,852 WARNING:Sem registro de preço médio para BTCUSDT. Ignorando venda.
+2025-04-27 08:44:03,852 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 08:44:04,142 INFO:Decisão para ETHUSDT: sell
+2025-04-27 08:44:04,143 WARNING:Sem registro de preço médio para ETHUSDT. Ignorando venda.
+2025-04-27 08:44:04,144 INFO:Resumo do ciclo: 2 ativos analisados, 0 operações executadas, tempo de execução: 0.70 segundos
+2025-04-27 09:17:29,728 INFO:Preço médio inicial configurado para BTCUSDT: 10.3200 USDT
+2025-04-27 09:17:29,730 INFO:Preço médio inicial configurado para ETHUSDT: 10.2800 USDT
+2025-04-27 09:17:29,730 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 09:17:30,129 INFO:Decisão para BTCUSDT: sell
+2025-04-27 09:17:30,411 INFO:Take Profit atingido: 93841.0200 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 09:17:30,412 INFO:Vendendo BTCUSDT | Preço atual 93841.0200 USDT | Preço médio 10.3200 USDT
+2025-04-27 09:17:30,414 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 09:17:31,205 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.48 segundos
+2025-04-27 09:32:31,647 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 09:32:32,046 INFO:Decisão para BTCUSDT: sell
+2025-04-27 09:32:32,328 INFO:Take Profit atingido: 93731.3400 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 09:32:32,329 INFO:Vendendo BTCUSDT | Preço atual 93731.3400 USDT | Preço médio 10.3200 USDT
+2025-04-27 09:32:32,331 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 09:32:33,139 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.49 segundos
+2025-04-27 09:47:33,588 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 09:47:33,971 INFO:Decisão para BTCUSDT: sell
+2025-04-27 09:47:34,256 INFO:Take Profit atingido: 93842.4000 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 09:47:34,256 INFO:Vendendo BTCUSDT | Preço atual 93842.4000 USDT | Preço médio 10.3200 USDT
+2025-04-27 09:47:34,258 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 09:47:35,076 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.49 segundos
+2025-04-27 10:02:35,520 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 10:02:35,924 INFO:Decisão para BTCUSDT: sell
+2025-04-27 10:02:36,202 INFO:Take Profit atingido: 93820.0000 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 10:02:36,203 INFO:Vendendo BTCUSDT | Preço atual 93820.0000 USDT | Preço médio 10.3200 USDT
+2025-04-27 10:02:36,205 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 10:02:37,007 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.49 segundos
+2025-04-27 10:17:37,467 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 10:17:37,843 INFO:Decisão para BTCUSDT: sell
+2025-04-27 10:17:38,123 INFO:Take Profit atingido: 93826.0100 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 10:17:38,124 INFO:Vendendo BTCUSDT | Preço atual 93826.0100 USDT | Preço médio 10.3200 USDT
+2025-04-27 10:17:38,126 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 10:17:38,950 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.48 segundos
+2025-04-27 10:32:39,404 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 10:32:39,797 INFO:Decisão para BTCUSDT: sell
+2025-04-27 10:32:40,081 INFO:Take Profit atingido: 93903.7100 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 10:32:40,082 INFO:Vendendo BTCUSDT | Preço atual 93903.7100 USDT | Preço médio 10.3200 USDT
+2025-04-27 10:32:40,083 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 10:32:40,887 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.48 segundos
+2025-04-27 10:47:41,333 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 10:47:41,776 INFO:Decisão para BTCUSDT: sell
+2025-04-27 10:47:42,062 INFO:Take Profit atingido: 94020.0000 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 10:47:42,062 INFO:Vendendo BTCUSDT | Preço atual 94020.0000 USDT | Preço médio 10.3200 USDT
+2025-04-27 10:47:42,064 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 10:47:42,873 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.54 segundos
+2025-04-27 11:02:43,336 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 11:02:43,699 INFO:Decisão para BTCUSDT: sell
+2025-04-27 11:02:43,992 INFO:Take Profit atingido: 94076.8200 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 11:02:43,993 INFO:Vendendo BTCUSDT | Preço atual 94076.8200 USDT | Preço médio 10.3200 USDT
+2025-04-27 11:02:43,995 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 11:02:44,856 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.52 segundos
+2025-04-27 11:17:45,321 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 11:17:45,712 INFO:Decisão para BTCUSDT: sell
+2025-04-27 11:17:45,993 INFO:Take Profit atingido: 94064.9200 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 11:17:45,994 INFO:Vendendo BTCUSDT | Preço atual 94064.9200 USDT | Preço médio 10.3200 USDT
+2025-04-27 11:17:45,995 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 11:17:46,856 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.53 segundos
+2025-04-27 11:32:47,320 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 11:32:47,785 INFO:Decisão para BTCUSDT: sell
+2025-04-27 11:32:48,077 INFO:Take Profit atingido: 94036.8300 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 11:32:48,078 INFO:Vendendo BTCUSDT | Preço atual 94036.8300 USDT | Preço médio 10.3200 USDT
+2025-04-27 11:32:48,081 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 11:32:48,926 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.61 segundos
+2025-04-27 11:47:49,386 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 11:47:49,798 INFO:Decisão para BTCUSDT: sell
+2025-04-27 11:47:50,081 INFO:Take Profit atingido: 93965.2400 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 11:47:50,081 INFO:Vendendo BTCUSDT | Preço atual 93965.2400 USDT | Preço médio 10.3200 USDT
+2025-04-27 11:47:50,082 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 11:47:50,872 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.49 segundos
+2025-04-27 12:02:51,321 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 12:02:51,737 INFO:Decisão para BTCUSDT: sell
+2025-04-27 12:02:52,023 INFO:Take Profit atingido: 93913.0500 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 12:02:52,024 INFO:Vendendo BTCUSDT | Preço atual 93913.0500 USDT | Preço médio 10.3200 USDT
+2025-04-27 12:02:52,026 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 149, in job
+    execute_order(symbol, decision, quantity)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'quantity' where it is not associated with a value
+
+2025-04-27 12:02:52,819 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 1.50 segundos
+2025-04-27 12:20:58,852 INFO:Preço médio inicial configurado para BTCUSDT: 10.3200 USDT
+2025-04-27 12:20:58,853 INFO:Preço médio inicial configurado para ETHUSDT: 10.2800 USDT
+2025-04-27 12:20:58,853 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 12:20:59,152 INFO:Decisão para BTCUSDT: sell
+2025-04-27 12:20:59,455 INFO:Take Profit atingido: 93962.4500 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 12:20:59,974 INFO:Vendendo BTCUSDT | Preço atual 93962.4500 USDT | Preço médio 10.3200 USDT
+2025-04-27 12:21:00,268 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:21:01,095 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 12:21:01,391 INFO:Decisão para ETHUSDT: sell
+2025-04-27 12:21:01,676 INFO:Take Profit atingido: 1795.8700 >= 10.4856 para ETHUSDT. Vendendo.
+2025-04-27 12:21:02,164 INFO:Vendendo ETHUSDT | Preço atual 1795.8700 USDT | Preço médio 10.2800 USDT
+2025-04-27 12:21:02,450 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:21:04,378 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 5.53 segundos
+2025-04-27 12:22:04,412 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 12:22:04,710 INFO:Decisão para BTCUSDT: sell
+2025-04-27 12:22:04,996 INFO:Take Profit atingido: 93962.4500 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 12:22:05,507 INFO:Vendendo BTCUSDT | Preço atual 93962.4500 USDT | Preço médio 10.3200 USDT
+2025-04-27 12:22:05,796 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:22:06,582 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 12:22:06,873 INFO:Decisão para ETHUSDT: sell
+2025-04-27 12:22:07,157 INFO:Take Profit atingido: 1796.1300 >= 10.4856 para ETHUSDT. Vendendo.
+2025-04-27 12:22:07,654 INFO:Vendendo ETHUSDT | Preço atual 1796.1300 USDT | Preço médio 10.2800 USDT
+2025-04-27 12:22:07,944 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:22:08,779 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.37 segundos
+2025-04-27 12:23:08,812 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 12:23:09,108 INFO:Decisão para BTCUSDT: sell
+2025-04-27 12:23:09,396 INFO:Take Profit atingido: 93939.3400 >= 10.5264 para BTCUSDT. Vendendo.
+2025-04-27 12:23:09,900 INFO:Vendendo BTCUSDT | Preço atual 93939.3400 USDT | Preço médio 10.3200 USDT
+2025-04-27 12:23:10,202 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:23:11,021 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 12:23:11,313 INFO:Decisão para ETHUSDT: sell
+2025-04-27 12:23:11,605 INFO:Take Profit atingido: 1795.3000 >= 10.4856 para ETHUSDT. Vendendo.
+2025-04-27 12:23:12,110 INFO:Vendendo ETHUSDT | Preço atual 1795.3000 USDT | Preço médio 10.2800 USDT
+2025-04-27 12:23:12,418 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 12:23:13,241 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.43 segundos
