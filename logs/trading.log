@@ -1294,3 +1294,431 @@ binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insuff
 binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
 
 2025-04-27 12:23:13,241 INFO:Resumo do ciclo: 2 ativos analisados, 2 operações executadas, tempo de execução: 4.43 segundos
+2025-04-27 21:59:35,261 INFO:Preço médio inicial configurado para BTCUSDT: 94.3390 USDT
+2025-04-27 21:59:35,262 INFO:Preço médio inicial configurado para ETHUSDT: 1.8140 USDT
+2025-04-27 21:59:35,262 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 21:59:35,633 INFO:Decisão para BTCUSDT: sell
+2025-04-27 21:59:35,933 INFO:Take Profit atingido: 93400.6500 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 21:59:36,547 INFO:Vendendo BTCUSDT | Preço atual 93400.6500 USDT | Preço médio 94.3390 USDT
+2025-04-27 21:59:36,937 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 21:59:39,188 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 21:59:39,960 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 4.72 segundos
+2025-04-27 22:00:40,049 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:00:40,357 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:00:40,775 INFO:Take Profit atingido: 93460.1900 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:00:41,479 INFO:Vendendo BTCUSDT | Preço atual 93460.1900 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:00:42,091 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:00:42,941 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:00:43,832 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.78 segundos
+2025-04-27 22:01:43,997 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:01:44,303 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:01:44,595 INFO:Take Profit atingido: 93381.6000 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:01:45,226 INFO:Vendendo BTCUSDT | Preço atual 93381.6000 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:01:45,539 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:01:46,348 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:01:47,136 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.14 segundos
+2025-04-27 22:02:47,270 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:02:47,630 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:02:47,927 INFO:Take Profit atingido: 93455.0900 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:02:48,598 INFO:Vendendo BTCUSDT | Preço atual 93455.0900 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:02:48,900 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:02:49,724 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:02:50,541 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.27 segundos
+2025-04-27 22:03:50,768 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:03:51,120 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:03:51,437 INFO:Take Profit atingido: 93494.9500 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:03:52,148 INFO:Vendendo BTCUSDT | Preço atual 93494.9500 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:03:52,455 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:03:53,274 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:03:54,138 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.37 segundos
+2025-04-27 22:04:54,286 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:04:54,588 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:04:54,887 INFO:Take Profit atingido: 93577.5200 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:04:55,540 INFO:Vendendo BTCUSDT | Preço atual 93577.5200 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:04:55,944 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:04:56,837 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:04:57,643 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.36 segundos
+2025-04-27 22:05:57,804 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:05:58,209 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:05:58,737 INFO:Take Profit atingido: 93543.9400 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:05:59,397 INFO:Vendendo BTCUSDT | Preço atual 93543.9400 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:05:59,756 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:06:00,545 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:06:01,337 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.53 segundos
+2025-04-27 22:07:01,486 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:07:02,198 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:07:02,577 INFO:Take Profit atingido: 93367.8200 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:07:03,187 INFO:Vendendo BTCUSDT | Preço atual 93367.8200 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:07:03,572 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:07:04,363 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:07:05,134 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.65 segundos
+2025-04-27 22:08:05,254 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:08:05,572 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:08:05,892 INFO:Take Profit atingido: 93325.9900 >= 96.2258 para BTCUSDT. Vendendo.
+2025-04-27 22:08:06,573 INFO:Vendendo BTCUSDT | Preço atual 93325.9900 USDT | Preço médio 94.3390 USDT
+2025-04-27 22:08:06,869 ERROR:Erro crítico ao executar ordem para BTCUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:08:07,675 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:08:08,552 INFO:Resumo do ciclo: 1 ativos analisados, 0 operações executadas, tempo de execução: 3.30 segundos
+2025-04-27 22:09:25,581 INFO:Preço médio inicial configurado para BTCUSDT: 94339.4100 USDT
+2025-04-27 22:09:25,582 INFO:Preço médio inicial configurado para ETHUSDT: 1814.0100 USDT
+2025-04-27 22:09:25,583 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:09:25,905 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:09:26,198 INFO:Nenhuma condição de venda atingida para BTCUSDT. (Preço atual: 93355.6100)
+2025-04-27 22:09:26,199 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 22:09:26,509 INFO:Decisão para ETHUSDT: sell
+2025-04-27 22:09:26,810 WARNING:Stop Loss atingido: 1774.5100 <= 1777.7298 para ETHUSDT. Vendendo.
+2025-04-27 22:09:27,408 INFO:Vendendo ETHUSDT | Preço atual 1774.5100 USDT | Preço médio 1814.0100 USDT
+2025-04-27 22:09:27,725 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:09:28,579 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:09:29,367 INFO:Resumo do ciclo: 2 ativos analisados, 0 operações executadas, tempo de execução: 3.79 segundos
+2025-04-27 22:10:29,421 INFO:Executando estratégia para BTCUSDT...
+2025-04-27 22:10:30,251 INFO:Decisão para BTCUSDT: sell
+2025-04-27 22:10:30,690 INFO:Nenhuma condição de venda atingida para BTCUSDT. (Preço atual: 93340.0100)
+2025-04-27 22:10:30,691 INFO:Executando estratégia para ETHUSDT...
+2025-04-27 22:10:31,199 INFO:Decisão para ETHUSDT: sell
+2025-04-27 22:10:31,722 WARNING:Stop Loss atingido: 1774.0900 <= 1777.7298 para ETHUSDT. Vendendo.
+2025-04-27 22:10:32,539 INFO:Vendendo ETHUSDT | Preço atual 1774.0900 USDT | Preço médio 1814.0100 USDT
+2025-04-27 22:10:33,051 ERROR:Erro crítico ao executar ordem para ETHUSDT: Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\trading\executor.py", line 17, in execute_order
+    order = client.create_order(
+        symbol=symbol,
+    ...<2 lines>...
+        quantity=quantity
+    )
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 1382, in create_order
+    return self._post("order", True, data=params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 185, in _post
+    return self._request_api("post", path, signed, version, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 117, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 89, in _request
+    return self._handle_response(self.response)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\venv\Lib\site-packages\binance\client.py", line 98, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2010): Account has insufficient balance for requested action.
+
+2025-04-27 22:10:35,065 ERROR:Erro geral no job:
+Traceback (most recent call last):
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 154, in job
+    save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sergio.tecnico\Documents\Binance\main.py", line 53, in save_trade_history
+    with open(trade_history_file, mode='a', newline='') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'trades_history.csv'
+
+2025-04-27 22:10:35,881 INFO:Resumo do ciclo: 2 ativos analisados, 0 operações executadas, tempo de execução: 6.46 segundos

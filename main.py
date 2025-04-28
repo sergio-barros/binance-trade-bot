@@ -24,8 +24,8 @@ USDT_TO_SPEND = {
 
 # Preço médio manual (opcional, para ativos que você já comprou manualmente)
 INITIAL_AVERAGE_PRICES = {
-    "BTCUSDT": 10.32,  # <-- Atualize aqui com seu preço real de compra
-    "ETHUSDT": 10.28    # <-- Atualize aqui com seu preço real de compra
+    "BTCUSDT": 94339.41,  # <-- Atualize aqui com seu preço real de compra
+    "ETHUSDT": 1814.01    # <-- Atualize aqui com seu preço real de compra
 }
 
 
@@ -149,7 +149,8 @@ def job():
                 usdt_amount = USDT_TO_SPEND.get(symbol, 1)
                 raw_quantity = usdt_amount / price
                 quantity = adjust_quantity(symbol, raw_quantity)
-                logging.info(f"Vendendo {symbol} | Preço atual {price:.4f} USDT | Preço médio {average_price:.4f} USDT")
+                logging.info(f"Vendendo {symbol} | Preço atual {price:.4f} USDT | Preço médio {average_price:.4f} USDT | Quantidade Bruta {raw_quantity:.4f} USDT"
+                             "| Quantidade Ajustada {quantity:.4f} USDT")
                 execute_order(symbol, decision, quantity)
                 save_trade_history(datetime.datetime.now(), symbol, "sell", quantity, price, float(quantity) * price)
                 daily_operations_count += 1
